@@ -50,7 +50,7 @@ const Hero = () => {
               </button>
               
               <a
-                 href="/resume/Resume.pdf"
+                 href="/Resume.pdf"
                 download
                className="group bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:scale-105 flex items-center justify-center"
                 >
@@ -89,9 +89,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-purple-500 via-pink-500 to-cyan-500 rounded-full blur-2xl opacity-50 animate-pulse scale-110 animate-spin" style={{animationDuration: '20s'}}></div>
               <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white/20 backdrop-blur-sm shadow-2xl hover:scale-105 transition-transform duration-500 hover:rotate-3">
-                <img
-                  src="/files/P1.jpg"
-                  alt="P1.jpg"
+                <img src="/P1.jpg" alt="P1.jpg" 
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-transparent"></div>
